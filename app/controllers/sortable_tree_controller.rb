@@ -16,7 +16,7 @@ module SortableTreeController
 
           # options
           options[:tree] = true
-          options[:sorting_attribute] ||= 'pos'
+          # options[:sorting_attribute] ||= 'pos'
           options[:parent_method] ||= 'parent'
 
           records = params[:cat].inject({}) do |res, (resource, parent_resource)|
