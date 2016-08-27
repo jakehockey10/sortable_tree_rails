@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     sortable_tree_rails (0.0.3)
+      haml-rails
       rails (~> 5.0.0)
 
 GEM

@@ -1,7 +1,7 @@
 module SortableTreeHelper
 
   def render_sortable_tree(items, opts={})
-    render :partial=>'sortable_tree/sortable_tree', locals: {items: items, options: opts}, handlers: [:haml]
+    render :partial=>'sortable_tree/sortable_tree', locals: {items: items, options: opts}
   end
 
   def sortable_tree_render_nested_groups(groups, opts={})
