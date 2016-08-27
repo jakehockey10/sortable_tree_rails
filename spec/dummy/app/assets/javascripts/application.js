@@ -15,5 +15,5 @@
 //= require jquery_ujs
 
 //=require jquery-ui/sortable
-//=require ../../../../../app/assets/javascripts/sortable_tree_rails/jquery.mjs.nestedSortable.js
+//=require ../../../../../lib/assets/javascripts/jquery.mjs.nestedSortable.js
 
