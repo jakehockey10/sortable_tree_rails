@@ -11,7 +11,7 @@ module SortableTreeController
     module ClassMethods
 
       def sortable_tree(class_name, options = {})
-        define_method("sort") do
+        define_method('sort') do
           resource_class = class_name.to_s.camelize.constantize
 
           # options
